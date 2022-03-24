@@ -19,3 +19,7 @@ naked generators are gates (take input to produce output)
 save the gate in a `.hoon` file, and add it to the `/gen` dir of a desk on your ship.
 
 mount a desk to the Unix filesystem
+
+easy to use `%base` desk with fake ship `/urbit -F zod`
+
+to mount run `|mount %base` in dojo (termial)
