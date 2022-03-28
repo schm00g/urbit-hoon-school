@@ -36,3 +36,30 @@ examples of literals:
 > -0x9d
 -0x9d
 ```
+
+To see their values in the default atom notation, you can tell Hoon to throw away the aura information; by using '@'
+```
+> `@`0b1001
+9
+
+> `@`0b1001.1101
+157
+
+> `@`0x9d
+157
+
+> `@`0xdead.beef
+3.735.928.559
+
+> `@`--9
+18
+
+> `@`-79
+157
+
+> `@`--0b1001
+18
+
+> `@`-0x9d
+313
+```
