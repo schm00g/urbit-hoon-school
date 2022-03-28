@@ -63,3 +63,5 @@ To see their values in the default atom notation, you can tell Hoon to throw awa
 > `@`-0x9d
 313
 ```
+
+`@` syntax is used to "cast" a value to a raw atom  i.e., an atom without an aura
