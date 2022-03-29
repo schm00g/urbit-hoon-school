@@ -111,3 +111,13 @@ Aura         Meaning                        Example of Literal Syntax
   @uw           unsigned base64             0wbnC.8haTg
   @ux           unsigned hexadecimal        0x5f5.e138
 ```
+
+cells [head tail]
+```
+> [32 320]
+[32 320]
+```
+
+`[6 [62 620]]` and `[6 62 620]` are considered equivalent in Hoon.
+
+A cell must be a pair
