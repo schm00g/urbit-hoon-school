@@ -65,3 +65,18 @@ To see their values in the default atom notation, you can tell Hoon to throw awa
 ```
 
 `@` syntax is used to "cast" a value to a raw atom  i.e., an atom without an aura
+
+atoms can be used as strings in Hoon
+```
+> 'Howdy!'
+'Howdy!'
+
+> `@`'Howdy!'
+36.805.260.308.296
+
+> 'Hello world!'
+'Hello world!'
+
+> `@`'Hello world!'
+10.334.410.032.606.748.633.331.426
+```
