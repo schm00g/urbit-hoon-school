@@ -80,3 +80,34 @@ atoms can be used as strings in Hoon
 > `@`'Hello world!'
 10.334.410.032.606.748.633.331.426
 ```
+
+list of auras aand meaning
+```
+Aura         Meaning                        Example of Literal Syntax
+-------------------------------------------------------------------------
+@d           date
+  @da        absolute date                  ~2018.5.14..22.31.46..1435
+  @dr        relative date (ie, timespan)   ~h5.m30.s12
+@n           nil                            ~
+@p           phonemic base (urbit name)     ~sorreg-namtyv
+@r           IEEE floating-point
+  @rd        double precision  (64 bits)    .~6.02214085774e23
+  @rh        half precision (16 bits)       .~~3.14
+  @rq        quad precision (128 bits)      .~~~6.02214085774e23
+  @rs        single precision (32 bits)     .6.022141e23
+@s           signed integer, sign bit low
+  @sb        signed binary                  --0b11.1000
+  @sd        signed decimal                 --1.000.056
+  @sv        signed base32                  -0v1df64.49beg
+  @sw        signed base64                  --0wbnC.8haTg
+  @sx        signed hexadecimal             -0x5f5.e138
+@t           UTF-8 text (cord)              'howdy'
+  @ta        ASCII text (knot)              ~.howdy
+    @tas     ASCII text symbol (term)       %howdy
+@u              unsigned integer
+  @ub           unsigned binary             0b11.1000
+  @ud           unsigned decimal            1.000.056
+  @uv           unsigned base32             0v1df64.49beg
+  @uw           unsigned base64             0wbnC.8haTg
+  @ux           unsigned hexadecimal        0x5f5.e138
+```
