@@ -1,5 +1,7 @@
 Hoon is a "subject-oriented" programming language
 
+Hoon is a purely functional systems language
+
 `subject` is a piece of data that represents the environment, or the context, of an expression.
 
 This is a "noun"
