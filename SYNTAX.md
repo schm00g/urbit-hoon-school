@@ -29,3 +29,8 @@ Hoon expressions:
 * type expressions, and 
 * rune expressions. 
 
+noun literals can be written in Hoon as cells using `[ ]`.
+```
+> [6 7]
+[6 7]
+```
